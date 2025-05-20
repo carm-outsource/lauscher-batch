@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## Usage
 Assuming you are working in a private copy of *lauscher* that has been installed as noted above, you can continue by calculating a first spiketrain from one of the included examples:
 ```shell
-python -m lauscher test/resources/spoken_digit.flac my_first_spiketrain.npz --num_channels 70 --verbose
+python -m lauscher <input_dir> <output_dir> --num_channels 70 --verbose
 ```
 Note that due to the complexity of the implemented model, even short audio files might take multiple minutes to convert.
 Memory consumption might be huge for long audio files.
